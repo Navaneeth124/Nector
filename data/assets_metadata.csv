@@ -1,0 +1,11 @@
+asset_id,asset_name,asset_type,manufacturer,installation_date,site_id,building_id,parent_asset_id
+ASSET_001,Chiller-01,Chiller,Carrier,2024-01-15,SITE_A,BLDG_1,
+ASSET_002,AHU-01,AHU,Trane,2024-02-10,SITE_A,BLDG_1,ASSET_001
+ASSET_003,AHU-02,AHU,Trane,2024-02-11,SITE_A,BLDG_1,ASSET_001
+ASSET_004,Pump-01,Pump,Grundfos,2023-11-05,SITE_A,BLDG_1,
+ASSET_005,Flow Sensor-01,Sensor,Siemens,2024-03-01,SITE_A,BLDG_1,ASSET_004
+ASSET_006,Chiller-02,Chiller,York,2022-08-20,SITE_B,BLDG_2,
+ASSET_007,AHU-03,AHU,Carrier,2023-05-12,SITE_B,BLDG_2,ASSET_006
+ASSET_008,Pump-02,Pump,Grundfos,2022-09-01,SITE_B,BLDG_2,
+ASSET_009,Exhaust Fan-01,Fan,Greenheck,2023-07-22,,,
+ASSET_010,Emergency Generator,Generator,Caterpillar,2021-12-10,SITE_A,BLDG_1,

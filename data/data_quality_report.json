@@ -1,0 +1,113 @@
+{
+    "execution_time": "2026-07-10 23:59:26",
+    "summary": {
+        "assets": {
+            "total_records": 10,
+            "duplicates": 0,
+            "missing_values": {
+                "asset_id": 0,
+                "asset_name": 0,
+                "asset_type": 0,
+                "manufacturer": 0,
+                "installation_date": 0,
+                "site_id": 1,
+                "building_id": 1,
+                "parent_asset_id": 6
+            }
+        },
+        "telemetry": {
+            "total_records": 2614,
+            "duplicates": 14,
+            "missing_values": {
+                "timestamp": 0,
+                "site_id": 0,
+                "building_id": 0,
+                "asset_id": 0,
+                "sensor_id": 0,
+                "temperature": 20,
+                "humidity": 0,
+                "pressure": 0,
+                "vibration": 0,
+                "power_consumption": 0,
+                "operating_mode": 0
+            },
+            "invalid_asset_ids_count": 7,
+            "invalid_timestamps_count": 6,
+            "temp_outliers_count": 9,
+            "power_outliers_count": 0,
+            "late_arriving_count": 1732
+        },
+        "events": {
+            "total_records": 42,
+            "duplicates": 2,
+            "missing_values": {
+                "event_id": 0,
+                "timestamp": 0,
+                "asset_id": 0,
+                "event_type": 0,
+                "severity": 0,
+                "message": 0
+            },
+            "invalid_asset_ids_count": 0,
+            "invalid_timestamps_count": 0
+        }
+    },
+    "details": {
+        "telemetry": {
+            "invalid_asset_ids": [
+                "ASSET_XYZ",
+                "ASSET_999"
+            ],
+            "outlier_temp_samples": [
+                {
+                    "timestamp": "2026-07-08 13:14:26",
+                    "asset_id": "ASSET_004",
+                    "temperature": 185.18
+                },
+                {
+                    "timestamp": "2026-07-08 22:29:26",
+                    "asset_id": "ASSET_002",
+                    "temperature": 112.83
+                },
+                {
+                    "timestamp": "2026-07-09 15:44:26",
+                    "asset_id": "ASSET_008",
+                    "temperature": 185.66
+                },
+                {
+                    "timestamp": "2026-07-09 20:59:26",
+                    "asset_id": "ASSET_007",
+                    "temperature": 112.18
+                },
+                {
+                    "timestamp": "2026-07-10 00:44:26",
+                    "asset_id": "ASSET_003",
+                    "temperature": 107.3
+                }
+            ],
+            "outlier_power_samples": [],
+            "late_arriving_samples": [
+                {
+                    "timestamp": "2026-07-07 23:59:26",
+                    "asset_id": "ASSET_001"
+                },
+                {
+                    "timestamp": "2026-07-07 23:59:26",
+                    "asset_id": "ASSET_002"
+                },
+                {
+                    "timestamp": "2026-07-07 23:59:26",
+                    "asset_id": "ASSET_003"
+                },
+                {
+                    "timestamp": "2026-07-07 23:59:26",
+                    "asset_id": "ASSET_004"
+                },
+                {
+                    "timestamp": "2026-07-07 23:59:26",
+                    "asset_id": "ASSET_005"
+                }
+            ]
+        }
+    }
+}

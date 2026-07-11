@@ -1,0 +1,43 @@
+event_id,timestamp,asset_id,event_type,severity,message
+EVT_F_0000,2026-07-08 01:59:26,ASSET_002,Fault,High,Forced compressor failure 0
+EVT_F_0001,2026-07-08 05:59:26,ASSET_002,Fault,High,Forced compressor failure 1
+EVT_F_0002,2026-07-08 09:59:26,ASSET_002,Fault,High,Forced compressor failure 2
+EVT_F_0003,2026-07-08 13:59:26,ASSET_002,Fault,High,Forced compressor failure 3
+EVT_F_0004,2026-07-08 17:59:26,ASSET_002,Fault,High,Forced compressor failure 4
+EVT_F_0005,2026-07-08 21:59:26,ASSET_002,Fault,High,Forced compressor failure 5
+EVT_F_0006,2026-07-09 01:59:26,ASSET_002,Fault,High,Forced compressor failure 6
+EVT_F_0007,2026-07-09 05:59:26,ASSET_002,Fault,High,Forced compressor failure 7
+EVT_F_0008,2026-07-09 09:59:26,ASSET_002,Fault,High,Forced compressor failure 8
+EVT_F_0009,2026-07-09 13:59:26,ASSET_002,Fault,High,Forced compressor failure 9
+EVT_F_0010,2026-07-09 17:59:26,ASSET_002,Fault,High,Forced compressor failure 10
+EVT_F_0011,2026-07-09 21:59:26,ASSET_002,Fault,High,Forced compressor failure 11
+EVT_F_0012,2026-07-10 01:59:26,ASSET_002,Fault,High,Forced compressor failure 12
+EVT_F_0013,2026-07-10 05:59:26,ASSET_002,Fault,High,Forced compressor failure 13
+EVT_F_0014,2026-07-10 09:59:26,ASSET_002,Fault,High,Forced compressor failure 14
+EVT_0100,2026-07-07 23:59:26,ASSET_002,Fault,High,Communication lost
+EVT_0101,2026-07-08 01:59:26,ASSET_002,Fault,High,Communication lost
+EVT_0102,2026-07-08 03:59:26,ASSET_002,Fault,High,Communication lost
+EVT_0103,2026-07-08 03:59:26,ASSET_005,Warning,High,Vibration slightly above threshold
+EVT_0104,2026-07-08 06:59:26,ASSET_002,Fault,High,Fan belt broken
+EVT_0105,2026-07-08 07:59:26,ASSET_002,Fault,High,Communication lost
+EVT_0106,2026-07-08 13:59:26,ASSET_002,Fault,High,Power supply fault
+EVT_0107,2026-07-08 20:59:26,ASSET_004,Fault,High,Communication lost
+EVT_0108,2026-07-08 23:59:26,ASSET_002,Fault,High,Power supply fault
+EVT_0109,2026-07-09 00:59:26,ASSET_002,Fault,High,Fan belt broken
+EVT_0110,2026-07-09 01:59:26,ASSET_002,Fault,High,Compressor failure
+EVT_0111,2026-07-09 02:59:26,ASSET_002,Fault,High,Fan belt broken
+EVT_0112,2026-07-09 06:59:26,ASSET_002,Fault,High,Fan belt broken
+EVT_0113,2026-07-09 09:59:26,ASSET_002,Fault,High,Fan belt broken
+EVT_0114,2026-07-09 10:59:26,ASSET_002,Fault,High,Communication lost
+EVT_0114,2026-07-09 10:59:26,ASSET_002,Fault,High,Communication lost
+EVT_0115,2026-07-09 18:59:26,ASSET_002,Fault,High,Power supply fault
+EVT_0116,2026-07-10 00:59:26,ASSET_002,Fault,High,Power supply fault
+EVT_0117,2026-07-10 02:59:26,ASSET_002,Fault,High,Fan belt broken
+EVT_0118,2026-07-10 05:59:26,ASSET_002,Fault,High,Compressor failure
+EVT_0119,2026-07-10 09:59:26,ASSET_002,Fault,High,Power supply fault
+EVT_0120,2026-07-10 11:59:26,ASSET_002,Fault,High,Power supply fault
+EVT_0121,2026-07-10 11:59:26,ASSET_010,Fault,High,Fan belt broken
+EVT_0122,2026-07-10 14:59:26,ASSET_002,Fault,High,Power supply fault
+EVT_0123,2026-07-10 19:59:26,ASSET_002,Fault,High,Fan belt broken
+EVT_0123,2026-07-10 19:59:26,ASSET_002,Fault,High,Fan belt broken
+EVT_0124,2026-07-10 20:59:26,ASSET_002,Fault,High,Fan belt broken
