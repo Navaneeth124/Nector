@@ -6,7 +6,7 @@ The solution is implemented in Python and SQLite, featuring a graph-based asset 
 
 ---
 
-## Technical Overview
+## Overview
 
 The platform uses a medallion data architecture to process and refine raw IoT telemetry and event records:
 
