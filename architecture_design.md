@@ -6,7 +6,7 @@ Below is the proposed high-level system architecture designed to ingest, process
 
 ```mermaid
 graph TD
-    subgraph Ingestion Layer
+    subgraph "Ingestion Layer"
         A1[IoT Temperature Sensors] -->|MQTT| B[AWS IoT Core / MQTT Broker]
         A2[Power/Energy Sensors] -->|MQTT| B
         A3[Vibration/Pressure Sensors] -->|MQTT| B
@@ -14,7 +14,7 @@ graph TD
         B -->|Message Streams| C[Apache Kafka / AWS Kinesis]
     end
 
-    subgraph Processing Layer (Medallion Architecture)
+    subgraph "Processing Layer (Medallion Architecture)"
         C -->|Raw Stream| D[Spark Structured Streaming / Flink]
         D -->|Bronze: Append Raw Data| E[(Delta Lake / AWS S3)]
         
@@ -27,7 +27,7 @@ graph TD
         H -->|Gold: Aggregated Metrics & Facts| I[(Snowflake / BigQuery Warehouse)]
     end
 
-    subgraph Storage & Modeling Layer
+    subgraph "Storage & Modeling Layer"
         I -->|Analytical Stars & Snowflakes| J[Data Models]
         J -->|Telemetry & Energy Facts| J1[Fact Tables]
         J -->|Asset/Site/Time Dimensions| J2[Dimension Tables]
@@ -36,7 +36,7 @@ graph TD
         K[(PostgreSQL / Neo4j)] <-->|Asset Hierarchical Tree| L[Hierarchy & Impact Analysis]
     end
 
-    subgraph Serving & Consumption Layer
+    subgraph "Serving & Consumption Layer"
         J1 & J2 -->|SQL Queries| M[FastAPI Layer]
         K & L -->|Graph API Traversals| M
         M -->|REST APIs / GraphQL| N[Downstream Dashboards: Streamlit / PowerBI]
